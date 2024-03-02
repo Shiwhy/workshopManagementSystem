@@ -1,0 +1,66 @@
+#empl {
+  /* background-color: red; */
+  padding: 2vw;
+}
+
+#empl .head-dt {
+  margin: 0 0 5vh 0;
+}
+
+#empl .add-emp-table {
+  margin: 0 3vw;
+  background-color: #04383580; 
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+#empl .add-emp-table center h3 {
+  width: max-content;
+  margin: 5vh 0 0 0;
+  padding: 0 0.5vw;
+  border-bottom: 2px solid white ;
+  border-top: 2px solid white ;
+  border-radius: 5px;
+  
+}
+
+#addemptable {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#addemptable .table-left,
+#addemptable .table-center,
+#addemptable .table-right {
+  /* background-color: red; */
+  padding: 2vw;
+}
+
+#addemptable .table-left tr th {
+  font-size: 1.2vw;
+}
+
+#addemptable .table-left tr td input, 
+#addemptable .table-right tr td input,
+#addemptable .table-center tr td textarea{
+  margin: 0.9vw 0.2vw;
+  background-color: #1d2b3a;
+  outline: none;
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.4vh 0.2vw;
+}
+
+#empl .add-emp-table button {
+  margin-bottom: 5vh;
+}
+
+/* #empl .add-emp-table p {
+  display: none;
+  color: rgb(253, 58, 58);
+  font-size: 1.5vw;
+  font-weight: 600;
+  letter-spacing: .05vw;
+} */

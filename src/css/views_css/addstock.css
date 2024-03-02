@@ -1,0 +1,61 @@
+#addpartView {
+  float: right;
+  /* margin: 0 2vw 0 0; */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; */
+  display: none;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  position: relative;
+  padding: 2vh;
+  margin: .5vh 3vw 0 0;
+  background-color: #064b47;
+  z-index: 1;
+}
+
+/* #addpartView #addpartTable {
+  display: flex;
+} */
+
+#addpartView #addpartTable tr td input {
+  margin: .5vh .7vw;
+  padding: 0 .5vw;
+  /* background-color: blue; */
+  background: #1d2b3a;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: white;
+  
+}
+
+/* .heading-div .menu-addPart {
+  padding: .1vw;
+  background-color: #00dfc4;
+  border: transparent;
+  border-radius: 4px;
+  color: black;
+  font-weight: 500;
+
+} */
+
+
+
+.heading-div #addpartmenuBtn,
+#addpartView .addpartbtn {
+  margin: 4vh 4vw 0 0 ;
+  padding: 0 .5vw;  
+  height: 5vh;
+  background-color: #00dfc4;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+}
+
+.partbtn {
+  display: flex;
+  flex-wrap: wrap;
+}

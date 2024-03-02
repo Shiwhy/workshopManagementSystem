@@ -1,0 +1,137 @@
+.jobcard{
+  color:#fff;
+}
+
+.jobcard-title {
+  height: 80px;
+}
+
+.jobcard-details{
+  background-color: #04383563;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.jobcard-details h5{
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  width: max-content;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.input-box {
+  margin: 0 0 20px 0;
+}
+
+.input-box span{
+  display: flex;
+}
+
+.input-box input {
+  outline: none;
+  margin: 0 0 10px 0; 
+  background-color: #1d2b3a; 
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+  padding: 2px;
+  color: #fff;
+  width: 15rem;
+}
+
+.input-box textarea {
+  background-color: #1d2b3a;
+  border: 1px solid #00dfc4; 
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  padding: 2px;
+  /* width: 30%; */
+}
+
+.input-box .row .col .complain-box {
+  width: 80%;
+}
+
+.input-box select {
+  background-color: #1d2b3a;
+  color: #fff;
+  outline: none;
+  padding: 2px;
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+}
+
+.input-box h6{
+  width: max-content;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #fff;
+}
+
+/* .jobcard-details .savebtn {
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  margin: 5px;
+  padding: 6px 25px 6px 25px;
+  transition: 0.5s;
+  
+}
+.jobcard-details .savebtn:hover {
+  border: #1d2b3a;
+  background-color: #00dfc4;
+  color: #000;
+} */
+
+/* input::-webkit-outer-spin-button, */
+input::-webkit-inner-spin-button {
+    display: none; 
+}
+
+
+
+.input-box .empid {
+  width: 11vw;
+}
+
+.input-box .empdetail {
+  background: transparent;
+  font-size: 1vw;
+  margin: 0 0 0 2vw;
+  padding: .3vw 1vw;
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.input-box .empdetail:hover {
+  /* border: #1d2b3a; */
+  background-color: #00dfc4;
+  color: #000;
+}
+
+.jobcard-status {
+  display: flex;
+  /* justify-content: end; */
+  justify-content: flex-end;
+}
+
+.jobcard-status select {
+  background-color: #1d2b3a;
+  color: #fff;
+  outline: none;
+  padding: 2px;
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+  margin: 0 0 10px 0;
+}
+
+#emailError,
+#fillInput {
+  color: rgb(248, 55, 55);
+  font-weight: 700;
+  letter-spacing: 0.02rem;
+  display: none ;
+}

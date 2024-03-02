@@ -1,0 +1,36 @@
+.search {
+  padding: 0 1vw;
+  width: max-content;
+  margin: 4vh 0 0 0;
+}
+
+.search input {
+  width: 15vw;
+  padding: 0 5px;
+  background-color: #1d2b3a; 
+  outline: none;
+  border: 2px solid white;
+  border-radius: 6px;
+  border: 1px solid #00dfc4;
+  color: #fff;
+  font-weight: 400;  
+}
+
+.search button {
+  width: 2.5vw;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  transition: .3s;
+
+}
+
+.search .search-clrbtn {
+  width: 5vw;
+  
+}
+
+.search .search-clrbtn:hover {
+  background-color: #00dfc4;
+  color: #000;
+}

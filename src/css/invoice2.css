@@ -1,0 +1,161 @@
+.invoice{
+  color:#fff;
+}
+
+.invoice-box {
+  width: 100%;
+}
+
+.invoice-title {
+  height: 80px;
+}
+
+.invoice-box {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background-color: #04383563; 
+  padding: 30px;
+}
+
+.calender input {
+  outline: none;
+  color: #fff;
+  background-color: #1d2b3a;
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 2px;
+  font-size: 1em;
+}
+
+.dropdown select {
+  margin-left: 16px;
+  color: #fff;
+  border: 1px solid #00dfc4;
+  background-color: #1d2b3a;
+  border-radius: 5px;
+  padding: 2px;
+  outline: none;
+}
+
+.customer-details input {
+  background-color: #1d2b3a;
+  border : 1px solid #00dfc4;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  padding: 2px;
+}
+
+.table table thead tr{
+  background: transparent;
+  color: #fff;
+  border: 1px solid #00dfc4;
+  text-align: center;
+}
+
+.table table thead th {
+  border: 1px solid #00dfc4;
+}
+
+.table table tbody tr {
+  background: transparent;    
+}
+
+.table table tbody tr td{
+  border: 1px solid #00dfc4;
+  padding: 3px;
+} 
+
+.table table tbody tr td input{
+  margin: 1px;
+  background-color: #fff;
+  outline: none;
+  color: #000;
+  padding: 1px;
+}
+
+.table table tbody tr td .input-1{
+  width: 38vw;
+  /* outline: none; */
+}
+
+.table table tbody tr td .input-2 {
+  width: 100%;
+}
+
+.table table tbody tr td button{
+  margin: 1px;
+  font-size: 15px;
+  width: 35px;
+  background-color: #1d2b3a;
+  color: #fff;
+  border: 1px solid #00dfc4;
+  padding: 2px;
+}
+
+.addBtn{
+  padding: 5px;
+  width: 5vw;
+  font-size: 16px;
+  background-color: #1d2b3a;
+  color: #fff;
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+}
+
+.invoice-box .table input::selection,
+.invoice-box .total-input::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+.table .row .col span {
+  background-color: transparent;
+  font-size: 20px;
+  color: #fff;
+}
+
+.table .row .col input{
+  width: 10rem;
+  height: 2rem;
+  border: 1px solid #00dfc4;
+  outline: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.table table .row .col .total-input {
+  background-color: #000;
+  color: #000;
+}
+
+.savebtn {
+  border: 1px solid #00dfc4;
+  border-radius: 5px;
+  background: transparent;
+  color: #fff;
+  margin: 5px;
+  padding: 6px 25px 6px 25px;
+  transition: 0.5s;
+  
+}
+
+.savebtn:hover {
+  background-color: #00dfc4;
+  color: #000;
+
+}
+
+.invoice .headCon  {
+  display: flex;
+  justify-content: space-between;
+}
+
+.invoice .headCon .showInvoiceButton {
+  height: 5vh;
+}
+
+.invoice .invoice-box .total-input {
+  color: #000;
+}

@@ -1,0 +1,63 @@
+.about-heading {
+  color: #fff;
+}
+.content {
+  color: #fff;
+}
+
+.content .team-heading {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-radius: 5px;
+  padding: 5px;
+  width: max-content;
+}
+
+.mechanic,
+.aboutcar {
+  width: 40vw; 
+  border-radius: 15px;
+}
+
+.about-text {
+  border: 1px solid #fff;
+  border-left: 5px solid #d62976;
+  border-right: transparent;
+  border-bottom: transparent;
+  border-top: transparent;
+}
+.about-text p {
+  position: relative;
+  left: 25px;
+  text-align: justify;
+  margin: 5vw 0 0 0;
+}
+
+.about-text-2 {
+  border: 1px solid #fff;
+  border-left: transparent;
+  border-right: 5px solid #d62976;
+  border-bottom: transparent;
+  border-top: transparent;
+}
+.about-text-2 p {
+  position: relative;
+  right: 20px;
+  text-align: justify;
+  margin: 3vw 0 0 0;
+}
+
+.all-text {
+  text-align: justify;
+}
+
+
+@media (max-width: 1200px) {
+  .about-text {
+    font-size: 1.3vw;
+  }
+
+  .about-text-2 {
+    font-size: 1.3vw;
+  }
+}

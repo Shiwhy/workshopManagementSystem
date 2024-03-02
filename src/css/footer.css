@@ -1,0 +1,51 @@
+footer {
+  height: 10%;
+  background-color: #a9a9a998;
+  width: 100%;
+  overflow: hidden;
+}
+
+footer .row {
+  margin: 0 5px 0 5px;
+}
+
+.footer-text {
+  color: #fff;
+}
+
+.footer-logo {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.footer-logo-text {
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: 1000;
+}
+
+.footer-heading {
+  font-weight: 700;
+}
+
+/* ---- Media Queries ---- */
+
+@media (max-width: 1200px) {
+  footer {
+    width: 100%;
+    /* font-size: 1vw */
+    /* padding: 2vw; */
+    
+  }
+
+  .footer-logo-car {
+    font-size: 10vw;
+  }
+
+  .footer-logo-text {
+    font-size: 3vw;
+  }
+  
+}
+
+/* ---- x Media Queries x ---- */

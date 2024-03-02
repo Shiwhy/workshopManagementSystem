@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+
+.landing-main{
+  padding: 5vw;
+  transform: translateY(10vmin);
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  align-items: center;
+  font-size: 2vw;
+} 
+
+.landing-cover-page {
+  background: linear-gradient(to right, #132831, #234049ee, #162c36b2);
+  width: 45vw;
+  padding: 2vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 0 10vw;
+  border-right: 6px solid #fff;
+  border-bottom: 4px solid #fff;
+}
+
+.landing-logoCar img {
+  width: 25vw;
+  margin-top: .8vw;
+  margin-left: 0.5vw;
+  z-index: 1;
+  /* position: relative; */
+}
+
+.landing-logoText img {
+  width: 30vw;
+  z-index: 1;
+  /* position: relative */
+}
+
+.landing-links {
+  display: flex;
+  margin-top: 3vw;
+  gap: 3vw;
+}
+
+.landing-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  position: relative;
+  padding: 1vw 4vw;
+  border: 1px solid #fff;
+  border-radius: 30vw;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+.landing-links a:hover {
+  background: linear-gradient(to right, #132831, #305764d7, #213e4bb2);
+}
+
+/* .landing-slogan {
+  margin-top: 2vw;
+  color: rgb(21, 216, 216);
+  margin-left: 1.5vw;
+  font-size: 3vmax;
+  letter-spacing: 0.1rem;
+  font-family: 'M Plus 1', serif;
+  font-weight: 700;
+  
+} */
